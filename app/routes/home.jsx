@@ -133,33 +133,39 @@ export default function Home() {
           />
           <ProjectCard
             imgSrc="/images/movies.png"
-            title="Movies & Shows App"
+            title="vibe-coding with Ai"
             description="Modern movie and shows app featuring search, trending titles, and detailed previews — built with React and Tailwind CSS for a fast, responsive experience"
             href="https://movie-shows-lime.vercel.app/"
           />
           <ProjectCard
             imgSrc="/images/to-do.png"
-            title="To-do App"
+            title="Personal Note-Taker"
             description="Track, add, and manage your daily tasks with a clean modern interface."
             href="https://to-do-app-iwyw.vercel.app/"
           />
           <ProjectCard
-            imgSrc="/images/weather.png"
-            title="Weather Tracker"
-            description="Weather web app helping users plan their day with real-time forecasts."
-            href="https://weather-api-ten-xi.vercel.app/"
+            imgSrc="/images/farm.jpg"
+            title="Farm Management App"
+            description="A comprehensive app for managing farm operations, including crop tracking, livestock management, and sales analytics."
+            href="https://farm-helper-khaki.vercel.app/"
           />
           <ProjectCard
-            imgSrc="/images/vibecoding.png"
-            title="vibe-coding with Ai"
-            description="AI-assisted movie app built with Vibe Coding — browse, search, and explore trending films in a clean responsive U."
-            href="https://movie-ai-puce.vercel.app/"
+            imgSrc="/images/delicacies.jpeg"
+            title="Collins Delicacies"
+            description="Collins Delicacies is a restaurant/food business website built with React Router, showcasing menu items and dishes with an elegant amber/stone serif-themed design (dark mode supported). It serves as the digital storefront for the business — letting customers browse offerings and get a feel for the brand online."
+            href="https://collins-delicacies.vercel.app/"
           />
           <ProjectCard
             imgSrc="/images/payments.png"
             title="M-PESA Online Payments Integration"
             description="A real-time payment integration built with M-PESA Daraja API — enabling users to send and receive mobile payments securely through a modern web interface."
             href="https://online-payments-pctp.vercel.app/"
+          />
+          <ProjectCard
+            imgSrc="/images/school.jpg"
+            title="School Management System"
+            description="A School Management System is software that digitizes a school's daily operations — student records, attendance, grading, fee payments, and staff scheduling — into one platform. It replaces manual paperwork with centralized, real-time data accessible to admins, teachers, and parents. The goal is faster, more accurate school administration with less error-prone manual work."
+            href="https://school360-olive.vercel.app/"
           />
         </div>
         <Link
