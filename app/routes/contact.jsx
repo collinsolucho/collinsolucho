@@ -9,15 +9,22 @@ import {
   setSuccessMessage,
 } from "../.server/session";
 
+export function meta() {
+  return [
+    { title: "collinsOlucho" },
+    { name: "description", content: "collinsolucho contacts" },
+  ];
+}
+
 export async function action({ request }) {
   let session = await getSession(request.headers.get("Cookie"));
   let messages = session.get("messages") || [];
   let formData = await request.formData();
-  console.log(formData);
+
   let phone = formData.get("phone");
   let email = formData.get("email");
   let message = formData.get("message");
-  console.log(phone, email, message);
+
   let update = await AddMessages(phone, email, message);
   if (update) {
     setSuccessMessage(session, "Message Sent successfully!");

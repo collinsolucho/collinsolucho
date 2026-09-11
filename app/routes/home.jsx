@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 export function meta() {
   return [
-    { title: "Personal Portfolio" },
-    { name: "description", content: "Personal Bio!" },
+    { title: "collinsOlucho" },
+    { name: "description", content: "collinsolucho Bio!" },
   ];
 }
 

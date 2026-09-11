@@ -146,8 +146,7 @@ export function Layout({ children }) {
             </nav>
           )}
         </header>
-
-        {children}
+        s{children}
         <Toaster />
         <ScrollRestoration />
         <Scripts />

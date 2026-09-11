@@ -4,6 +4,13 @@ import { AiOutlineMail } from "react-icons/ai";
 import { Phone } from "lucide-react";
 import { FaGithubAlt, FaLinkedin } from "react-icons/fa";
 
+export function meta() {
+  return [
+    { title: "collinsOlucho" },
+    { name: "description", content: "collinsolucho About" },
+  ];
+}
+
 const roleTags = ["Educator", "Full Stack Developer", "UI/UX Enthusiast"];
 
 const infoFields = [
