@@ -57,7 +57,7 @@ const skillFiles = [
 
 export default function About() {
   return (
-    <main className="min-h-screen bg-[#0B1220] text-[#DCE4F5] mt-10 md:mt-15 selection:bg-amber-400/30 selection:text-amber-200">
+    <main className="min-h-screen bg-[#0B1220] text-[#DCE4F5]  selection:bg-amber-400/30 selection:text-amber-200">
       <div
         className="relative bg-cover bg-center bg-fixed bg-no-repeat"
         style={{ backgroundImage: "url('/images/aboutPortfolio.jpg')" }}
@@ -66,7 +66,7 @@ export default function About() {
 
         <div className="relative z-10 py-10 px-4 sm:px-6 md:py-16">
           {/* === PROFILE SECTION === */}
-          <section className="max-w-5xl mx-auto rounded-md border border-[#223252] bg-[#0F1A2E]/90 shadow-2xl overflow-hidden">
+          <section className="max-w-5xl mx-auto rounded-md border border-[#223252] bg-[#0F1A2E]/90 shadow-2xl mt-20 overflow-hidden">
             {/* window chrome */}
             <div className="flex items-center gap-2 px-4 py-3 border-b border-[#223252] bg-[#101B2E]">
               <span className="w-2.5 h-2.5 rounded-full bg-[#2A3B5C]"></span>

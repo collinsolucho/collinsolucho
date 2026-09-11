@@ -74,7 +74,7 @@ const detailFields = [
 
 export default function Contact() {
   return (
-    <main className="relative min-h-screen mt-10 md:mt-15 bg-[#0B1220] text-[#DCE4F5] selection:bg-amber-400/30 selection:text-amber-200">
+    <main className="relative min-h-screen  bg-[#0B1220] text-[#DCE4F5] selection:bg-amber-400/30 selection:text-amber-200">
       {/* background image layer, runs the full page length */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-fixed bg-no-repeat"
@@ -100,8 +100,8 @@ export default function Contact() {
         <rect width="100%" height="100%" fill="url(#contact-dot-grid)" />
       </svg>
 
-      <div className="relative z-10 py-10 px-4 sm:px-6 md:py-16">
-        <section className="max-w-4xl mx-auto rounded-md border border-[#223252] bg-[#0F1A2E]/90 shadow-2xl overflow-hidden">
+      <div className="relative z-10 py-10 px-4 sm:px-6 md:py-16 ">
+        <section className="max-w-4xl mx-auto rounded-md border border-[#223252] bg-[#0F1A2E]/90 shadow-2xl overflow-hidden mt-20">
           {/* window chrome */}
           <div className="flex items-center gap-2 px-4 py-3 border-b border-[#223252] bg-[#101B2E]">
             <span className="w-2.5 h-2.5 rounded-full bg-[#2A3B5C]"></span>
